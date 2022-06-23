@@ -50,7 +50,7 @@ con las siguientes compras ficticias, siguiendo su propuesta.
 -Paco	450 ML	1 botella 350ml y 1 botella 100ml										
 -Hugo	185 ML	2 botellas 100 ml 										
 -Luis	940 ML	1 botella 500ml 1 350ml y 250ml		
-				
+![img](/assets/actividad.PNG)				
 				
 ![image](https://user-images.githubusercontent.com/80118669/175406194-cd94fefa-3b44-47ff-8238-8f5202c195cd.png)
 
