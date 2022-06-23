@@ -34,9 +34,33 @@ RESPUESTAS:
 - Lo que yo haria para evitar desperdicios de botellas es realizar un algoritmo el cual determine que botellas son las adecuadas a elegir segun la cantidad exigida por el cliente segun el stock registrado con la cantidad de botellas y su medida.
 2. Plasme la descripción de su algoritmo
 INICIO
-- Verificar la cantidad en ML del pedido realizado 
-- Buscar en el stock las existencias disponibles
-- Operacion para llegar a los ML deseados
-- Confirmacion de la operacion
-- Reduccion de la cantidad en stock
+- Variable x = 0
+- Variable cantidad = 0
+- Variable B500 = 0, B350 = 0, B250 = 0, B100 = 0,
+- Pedir cantidad en ml
+- Asignar ese valor a la variable cantidad 
+- DO  
+- IF cantidad es mayor o igual a 500 
+    x = 500 
+    cantidad = cantidad - x
+    STOCK -1 
+    B500 = B500 + 1
+   IFELSE cantidad es mayor o igual a 350 
+    x = 350 
+    cantidad = cantidad - x
+    STOCK -1
+    B350 = B350 + 1
+   IFELSE cantidad es mayor o igual a 250 
+    x = 250 
+    cantidad = cantidad - x
+    STOCK -1
+    B250 = B250 + 1
+   IFELSE cantidad es mayor o igual a 100 
+    x = 100 
+    cantidad = cantidad - x
+    STOCK -1
+    B100 = B100 + 1
+ -  WHILE cantidad diferente de 0
+ -  IMPRIMIR "Cantidad de botellas optimas a utilizar"
+ -  IMPRIMIR "Botella 500" + B500 + "Botella 350" + B350 "Botella 250" + B250 "Botella 100" + B100 
 FIN
