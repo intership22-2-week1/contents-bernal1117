@@ -31,16 +31,16 @@ Vimos muchisimos temas relacionados al tema asi como
 ## ACTIVIDAD 
 RESPUESTAS:
 1. ¿Qué haría usted para que cuando un cliente compre algún producto se utilicen la menor cantidad de botellas, y se desperdicie la menor cantidad de espacio en las mismas.?
-- Lo que yo haria para evitar desperdicios de botellas es realizar un algoritmo el cual determine que botellas son las adecuadas a elegir segun la cantidad exigida por el cliente segun el stock registrado con la cantidad de botellas y su medida.
+Lo que yo haria para evitar desperdicios de botellas es realizar un algoritmo el cual determine que botellas son las adecuadas a elegir segun la cantidad exigida por el cliente segun el stock registrado con la cantidad de botellas y su medida.
 2. Plasme la descripción de su algoritmo
-INICIO
-Variable x = 0
-Variable cantidad = 0
-Variable B500 = 0, B350 = 0, B250 = 0, B100 = 0,
-Pedir cantidad en ml
-Asignar ese valor a la variable cantidad 
-DO  
-IF cantidad es mayor o igual a 500 
+- INICIO
+- Variable x = 0
+- Variable cantidad = 0
+- Variable B500 = 0, B350 = 0, B250 = 0, B100 = 0,
+- Pedir cantidad en ml
+- Asignar ese valor a la variable cantidad 
+- DO  
+- IF cantidad es mayor o igual a 500 
     x = 500 
     cantidad = cantidad - x
     STOCK -1 
