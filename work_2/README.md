@@ -31,36 +31,46 @@ Vimos muchisimos temas relacionados al tema asi como
 ## ACTIVIDAD 
 RESPUESTAS:
 1. ¿Qué haría usted para que cuando un cliente compre algún producto se utilicen la menor cantidad de botellas, y se desperdicie la menor cantidad de espacio en las mismas.?
-Lo que yo haria para evitar desperdicios de botellas es realizar un algoritmo el cual determine que botellas son las adecuadas a elegir segun la cantidad exigida por el cliente segun el stock registrado con la cantidad de botellas y su medida.
+   - Lo que yo haria para evitar desperdicios de botellas es realizar un algoritmo el cual determine que botellas son las adecuadas a elegir segun la cantidad exigida       por el cliente segun el stock registrado con la cantidad de botellas y su medida.
 2. Plasme la descripción de su algoritmo
 - INICIO
 - Variable x = 0
 - Variable cantidad = 0
-- Variable B500 = 0, B350 = 0, B250 = 0, B100 = 0,
+- Variable B500 = 0, B350 = 0, B250 = 0, B100 = 0
+- Variable BT500 = 500, BT350 = 350, BT250 = 250, BT100 = 100
 - Pedir cantidad en ml
 - Asignar ese valor a la variable cantidad 
 - DO  
-- IF cantidad es mayor o igual a 500 
-    x = 500 
-    cantidad = cantidad - x
-    STOCK -1 
-    B500 = B500 + 1
-   IFELSE cantidad es mayor o igual a 350 
-    x = 350 
-    cantidad = cantidad - x
-    STOCK -1
-    B350 = B350 + 1
-   IFELSE cantidad es mayor o igual a 250 
-    x = 250 
-    cantidad = cantidad - x
-    STOCK -1
-    B250 = B250 + 1
-   IFELSE cantidad es mayor o igual a 100 
-    x = 100 
-    cantidad = cantidad - x
-    STOCK -1
-    B100 = B100 + 1
- WHILE cantidad diferente de 0
- IMPRIMIR "Cantidad de botellas optimas a utilizar"
- IMPRIMIR "Botella 500" + B500 + "Botella 350" + B350 "Botella 250" + B250 "Botella 100" + B100 
-FIN
+- IF cantidad es mayor o igual a BT500 tome MAX en STOCK | MIN en STOCK 
+-    x = 500 
+-   cantidad = cantidad - x
+-    STOCK -1 
+-    B500 ++
+-  IFELSE cantidad es mayor o igual a BT350 | MIN en STOCK
+-    x = 350 
+-    cantidad = cantidad - x
+-    STOCK -1
+-    B350 ++
+-  IFELSE cantidad es mayor o igual a BT250 | MIN en STOCK
+-    x = 250 
+-    cantidad = cantidad - x
+-    STOCK -1
+-    B250 ++ 
+-  IFELSE cantidad es mayor o igual a BT100 | MIN en STOCK 
+-    x = 100 
+-    cantidad = cantidad - x
+-    STOCK -1
+-    B100 ++
+- WHILE cantidad diferente de 0
+- IMPRIMIR "Cantidad de botellas optimas a utilizar"
+- IMPRIMIR "Botella 500" + B500 + "Botella 350" + B350 "Botella 250" + B250 "Botella 100" + B100 
+- FIN
+3. Ejemplifique cómo distribuiría el liquido en los contenedores de la tabla de arriba 
+con las siguientes compras ficticias, siguiendo su propuesta.
+
+![img](../assets/ac1.png)
+
+2. Taller de santa claus
+
+
+
