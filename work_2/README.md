@@ -44,22 +44,16 @@ RESPUESTAS:
 - FIN
 3. Ejemplifique cómo distribuiría el liquido en los contenedores de la tabla de arriba 
 con las siguientes compras ficticias, siguiendo su propuesta.
-
--Cliente	Compra en ML	Cantidad de botellas		
--Juan	700 ML	1 botellas 500ml y 2 botellas 100 ml										
--Paco	450 ML	1 botella 350ml y 1 botella 100ml										
--Hugo	185 ML	2 botellas 100 ml 										
--Luis	940 ML	1 botella 500ml 1 350ml y 250ml		
+	
 ![img](/assets/actividad.PNG)				
 				
-![image](https://user-images.githubusercontent.com/80118669/175406194-cd94fefa-3b44-47ff-8238-8f5202c195cd.png)
 
 
 2. Taller de santa claus
 -   INICIO
 -   Pedir fichero 
 -   Recorido del array desde el inicio
--   Al encontrar una coincidencia agregar el mismo nombre = K que comeienza en 1
+-   Al encontrar una coincidencia agregar el mismo nombre K en 1
 -   Seguir con el recorrido
 -   Si el nombre no esta repitido solo agregarlo
 -   Si el nombre esta repetido agregar su nombre k + k
