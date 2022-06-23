@@ -39,7 +39,7 @@ RESPUESTAS:
 -  SI cantidad es mayor o igual a 350 tomar 350 se reduce en STOCK  
 -  SI cantidad es mayor o igual a 250 tomar 250 se reduce en STOCK
 -  SI cantidad es mayor o igual a 100 tomar 100 se reduce en STOCK
--  IFELSE lo contrario tomar MIN valor  
+-  SINO lo contrario tomar MIN valor  
 - IMPRIMIR el resultado
 - FIN
 3. Ejemplifique cómo distribuiría el liquido en los contenedores de la tabla de arriba 
