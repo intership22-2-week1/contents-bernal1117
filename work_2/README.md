@@ -61,8 +61,8 @@ con las siguientes compras ficticias, siguiendo su propuesta.
 -   Recorido del array desde el inicio
 -   Al encontrar una coincidencia agregar el mismo nombre = K que comeienza en 1
 -   Seguir con el recorrido
--   Si el nombre esta repetido agregar su nombre k + k
 -   Si el nombre no esta repitido solo agregarlo
+-   Si el nombre esta repetido agregar su nombre k + k
 -   Si el nombre esta repetido agregar su nombre + k
 -   FIN
 
