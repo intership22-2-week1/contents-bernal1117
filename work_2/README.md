@@ -34,43 +34,38 @@ RESPUESTAS:
    - Lo que yo haria para evitar desperdicios de botellas es realizar un algoritmo el cual determine que botellas son las adecuadas a elegir segun la cantidad exigida       por el cliente segun el stock registrado con la cantidad de botellas y su medida.
 2. Plasme la descripción de su algoritmo
 - INICIO
-- Variable x = 0
-- Variable cantidad = 0
-- Variable B500 = 0, B350 = 0, B250 = 0, B100 = 0
-- Variable BT500 = 500, BT350 = 350, BT250 = 250, BT100 = 100
-- Pedir cantidad en ml
-- Asignar ese valor a la variable cantidad 
-- DO  
-- IF cantidad es mayor o igual a BT500 tome MAX en STOCK | MIN en STOCK 
--    x = 500 
--   cantidad = cantidad - x
--    STOCK -1 
--    B500 ++
--  IFELSE cantidad es mayor o igual a BT350 | MIN en STOCK
--    x = 350 
--    cantidad = cantidad - x
--    STOCK -1
--    B350 ++
--  IFELSE cantidad es mayor o igual a BT250 | MIN en STOCK
--    x = 250 
--    cantidad = cantidad - x
--    STOCK -1
--    B250 ++ 
--  IFELSE cantidad es mayor o igual a BT100 | MIN en STOCK 
--    x = 100 
--    cantidad = cantidad - x
--    STOCK -1
--    B100 ++
-- WHILE cantidad diferente de 0
-- IMPRIMIR "Cantidad de botellas optimas a utilizar"
-- IMPRIMIR "Botella 500" + B500 + "Botella 350" + B350 "Botella 250" + B250 "Botella 100" + B100 
+- Pedir cantidad en ml  
+- SI cantidad es mayor o igual a 500 tome 500 se reduce en STOCK
+-  SI cantidad es mayor o igual a 350 tomar 350 se reduce en STOCK  
+-  SI cantidad es mayor o igual a 250 tomar 250 se reduce en STOCK
+-  SI cantidad es mayor o igual a 100 tomar 100 se reduce en STOCK
+-  IFELSE lo contrario tomar MIN valor  
+- IMPRIMIR el resultado
 - FIN
 3. Ejemplifique cómo distribuiría el liquido en los contenedores de la tabla de arriba 
 con las siguientes compras ficticias, siguiendo su propuesta.
 
 ![img](../assets/ac1.png)
 
-2. Taller de santa claus
+Cliente	Compra en ML	Cantidad de botellas		
+Juan	700 ML	1 botellas 500ml y 2 botellas 100 ml										
+Paco	450 ML	1 botella 350ml y 1 botella 100ml										
+Hugo	185 ML	2 botellas 100 ml 										
+Luis	940 ML	1 botella 500ml 1 350ml y 250ml		
+				
+				
+![image](https://user-images.githubusercontent.com/80118669/175406194-cd94fefa-3b44-47ff-8238-8f5202c195cd.png)
 
+
+2. Taller de santa claus
+-   INICIO
+-   Pedir fichero 
+-   Recorido del array desde el inicio
+-   Al encontrar una coincidencia agregar el mismo nombre = K que comeienza en 1
+-   Seguir con el recorrido
+-   Si el nombre esta repetido agregar su nombre k + k
+-   Si el nombre no esta repitido solo agregarlo
+-   Si el nombre esta repetido agregar su nombre + k
+-   FIN
 
 
